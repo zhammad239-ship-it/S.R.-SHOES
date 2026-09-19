@@ -1,0 +1,1185 @@
+﻿﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.R. SHOES | Premium Footwear in Nazimabad, Karachi</title>
+    <meta name="description" content="S.R. SHOES in Block 5, Nazimabad, Karachi. Explore premium sneakers, formal shoes, casual footwear, sandals, slippers, and sports shoes. Contact via WhatsApp or Call.">
+    <meta name="keywords" content="S.R. SHOES, footwear Karachi, shoes Nazimabad, sneakers Karachi, formal shoes, sandals, slippers, sports shoes Karachi">
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="S.R. SHOES | Premium Footwear in Nazimabad, Karachi">
+    <meta property="og:description" content="Step Into Your Style. Explore curated footwear categories and send inquiries directly on WhatsApp or Call. Located at Block 5, Nazimabad, Karachi.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Google Fonts: Outfit for Display/Headings & Plus Jakarta Sans for Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        :root {
+            --bg-dark: #121316;
+            --bg-card: #1A1C23;
+            --bg-card-hover: #222530;
+            --border-color: rgba(224, 169, 109, 0.18);
+            --border-hover: rgba(224, 169, 109, 0.45);
+            --copper-primary: #E0A96D;
+            --copper-light: #F3C89B;
+            --copper-dark: #D48C46;
+            --text-main: #F1F5F9;
+            --text-muted: #94A3B8;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6, .font-heading {
+            font-family: 'Outfit', sans-serif;
+        }
+
+        /* Copper Gradient Text */
+        .copper-gradient-text {
+            background: linear-gradient(135deg, #FFF0DC 0%, #E0A96D 50%, #D48C46 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .copper-border {
+            border: 1px solid var(--border-color);
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #121316;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2A2D38;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #E0A96D;
+        }
+
+        /* Reveal on Scroll Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(25px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Image Zoom Effect */
+        .img-zoom-container {
+            overflow: hidden;
+        }
+        .img-zoom {
+            transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .img-zoom-container:hover .img-zoom {
+            transform: scale(1.08);
+        }
+
+        /* Glassmorphism Card */
+        .glass-card {
+            background: rgba(26, 28, 35, 0.85);
+            backdrop-filter: blur(14px);
+            border: 1px solid var(--border-color);
+        }
+
+        /* Responsive Container */
+        .container-custom {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Filter Tab Active State */
+        .filter-btn.active {
+            background: linear-gradient(135deg, #E0A96D 0%, #D48C46 100%);
+            color: #0A0B0E;
+            font-weight: 700;
+            border-color: #E0A96D;
+        }
+    </style>
+
+    <!-- Tailwind CSS CDN Setup -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        copper: {
+                            light: '#F3C89B',
+                            DEFAULT: '#E0A96D',
+                            dark: '#D48C46',
+                        },
+                        dark: {
+                            bg: '#121316',
+                            card: '#1A1C23',
+                            hover: '#222530'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#121316] text-slate-100 antialiased">
+
+    <!-- Sticky Navigation Bar -->
+    <header id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-[#121316]/90 backdrop-blur-md border-b border-[#E0A96D]/15">
+        <div class="container-custom h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#home" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl border border-[#E0A96D]/40 flex items-center justify-center bg-[#1A1C23] group-hover:border-[#E0A96D] transition-colors shadow-md shadow-[#E0A96D]/5">
+                    <i class="fa-solid fa-shoe-prints text-[#E0A96D] text-sm transform -rotate-45"></i>
+                </div>
+                <div>
+                    <span class="font-heading font-extrabold text-2xl tracking-wider copper-gradient-text block leading-none">S.R. SHOES</span>
+                    <span class="text-[9px] tracking-[0.35em] text-slate-400 block uppercase mt-1 font-medium">FOOTWEAR SHOWROOM</span>
+                </div>
+            </a>
+
+            <!-- Desktop Navigation Links -->
+            <nav class="hidden lg:flex items-center gap-7">
+                <a href="#home" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">Home</a>
+                <a href="#categories" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">Categories</a>
+                <a href="#shoes" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">Footwear</a>
+                <a href="#style-guide" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">Style Guide</a>
+                <a href="#care-guide" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">Shoe Care</a>
+                <a href="#faq" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">FAQ</a>
+                <a href="#contact" class="nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] transition-colors font-semibold">Contact</a>
+            </nav>
+
+            <!-- Navbar Inquire CTAs -->
+            <div class="hidden sm:flex items-center gap-3">
+                <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-[#0A0B0E] hover:brightness-110 transition-all flex items-center gap-2 shadow-lg shadow-[#E0A96D]/15">
+                    <i class="fa-brands fa-whatsapp text-sm"></i>
+                    <span>WhatsApp Inquiry</span>
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="menu-toggle" aria-label="Toggle Navigation Menu" class="lg:hidden p-2 text-slate-300 hover:text-[#E0A96D] focus:outline-none">
+                <i class="fa-solid fa-bars-staggered text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-[#121316] border-b border-[#E0A96D]/20 px-6 py-6 transition-all shadow-2xl">
+            <div class="flex flex-col gap-4">
+                <a href="#home" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">Home</a>
+                <a href="#categories" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">Categories</a>
+                <a href="#shoes" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">Footwear Grid</a>
+                <a href="#style-guide" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">Style Guide</a>
+                <a href="#care-guide" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">Care Tips</a>
+                <a href="#faq" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">FAQ</a>
+                <a href="#contact" class="mobile-nav-link text-xs uppercase tracking-widest text-slate-300 hover:text-[#E0A96D] py-2 border-b border-slate-800 font-semibold">Contact Us</a>
+                
+                <div class="pt-4 flex flex-col gap-3">
+                    <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl text-xs uppercase tracking-wider font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-black text-center flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> Direct WhatsApp Inquiry
+                    </a>
+                    <a href="tel:+923333358998" class="w-full py-3 rounded-xl text-xs uppercase tracking-wider font-bold border border-[#E0A96D]/40 text-slate-200 text-center flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-phone text-xs"></i> Call 03333358998
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-20">
+        <!-- HERO SECTION -->
+        <section id="home" class="relative min-h-[90vh] flex items-center py-16 overflow-hidden">
+            <!-- Background Glow FX -->
+            <div class="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#E0A96D]/8 rounded-full blur-[150px] pointer-events-none"></div>
+
+            <div class="container-custom relative z-10">
+                <div class="grid lg:grid-cols-12 gap-12 items-center">
+                    <!-- Left Hero Content -->
+                    <div class="lg:col-span-7 reveal">
+                        <div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-[#1A1C23] border border-[#E0A96D]/30 text-xs tracking-widest text-[#E0A96D] uppercase mb-6 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-[#E0A96D] animate-ping"></span>
+                            <span>Footwear Showroom • Nazimabad, Karachi</span>
+                        </div>
+                        <h1 class="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
+                            Step Into Your <span class="copper-gradient-text italic font-normal">Style.</span>
+                        </h1>
+                        <p class="text-slate-300 text-base sm:text-lg mb-8 max-w-2xl leading-relaxed font-light">
+                            Welcome to <strong class="text-white font-semibold">S.R. SHOES</strong>. Explore versatile, high-crafted footwear tailored to every occasion—from sleek urban sneakers and classic formal leather to effortless casual slides. Connect with our Nazimabad showroom for quick inquiries.
+                        </p>
+
+                        <!-- CTA Actions -->
+                        <div class="flex flex-wrap items-center gap-4">
+                            <a href="#shoes" class="px-8 py-4 rounded-xl text-xs uppercase tracking-widest font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-black hover:brightness-110 transition-all shadow-xl shadow-[#E0A96D]/15 flex items-center gap-3">
+                                <span>Explore Shoes</span>
+                                <i class="fa-solid fa-arrow-right text-xs"></i>
+                            </a>
+                            <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="px-6 py-4 rounded-xl text-xs uppercase tracking-widest font-bold border border-[#E0A96D]/40 text-slate-200 hover:border-[#E0A96D] hover:bg-[#1A1C23] transition-all flex items-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-emerald-400 text-base"></i>
+                                <span>WhatsApp Inquiry</span>
+                            </a>
+                            <a href="tel:+923333358998" class="px-6 py-4 rounded-xl text-xs uppercase tracking-widest font-bold text-slate-400 hover:text-[#E0A96D] transition-colors flex items-center gap-2">
+                                <i class="fa-solid fa-phone text-xs"></i>
+                                <span>Call 03333358998</span>
+                            </a>
+                        </div>
+
+                        <!-- Quick Info Badges -->
+                        <div class="mt-12 pt-8 border-t border-slate-800/80 flex flex-wrap items-center gap-8 text-xs text-slate-400">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-location-dot text-[#E0A96D] text-lg"></i>
+                                <div>
+                                    <span class="block text-slate-500 uppercase tracking-wider text-[10px]">Showroom Location</span>
+                                    <span class="text-slate-200 font-semibold">Block 5, Nazimabad, Karachi</span>
+                                </div>
+                            </div>
+                            <div class="h-8 w-px bg-slate-800 hidden sm:block"></div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-headset text-[#E0A96D] text-lg"></i>
+                                <div>
+                                    <span class="block text-slate-500 uppercase tracking-wider text-[10px]">Direct Response</span>
+                                    <span class="text-slate-200 font-semibold">Call / WhatsApp: 03333358998</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Hero Footwear Showcase -->
+                    <div class="lg:col-span-5 reveal">
+                        <div class="relative group">
+                            <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#E0A96D]/30 to-slate-800 blur-md group-hover:blur-lg transition-all"></div>
+                            
+                            <div class="relative rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/30 overflow-hidden img-zoom-container shadow-2xl">
+                                <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=1000&q=80" 
+                                     alt="Premium Modern Footwear Close-up - S.R. SHOES" 
+                                     class="w-full h-[500px] object-cover object-center img-zoom"
+                                     loading="eager">
+                                <div class="absolute inset-0 bg-gradient-to-t from-[#121316] via-transparent to-transparent opacity-85"></div>
+                                
+                                <div class="absolute bottom-6 left-6 right-6 p-5 rounded-xl glass-card">
+                                    <div class="flex items-center justify-between">
+                                        <div>
+                                            <span class="text-[10px] uppercase tracking-widest text-[#E0A96D] block font-bold">Featured Footwear</span>
+                                            <h3 class="font-heading text-lg font-bold text-white">Urban Leather & Sport Craft</h3>
+                                        </div>
+                                        <a href="#inquiry-builder" class="w-10 h-10 rounded-xl bg-[#E0A96D]/15 border border-[#E0A96D]/40 flex items-center justify-center text-[#E0A96D] hover:bg-[#E0A96D] hover:text-black transition-all">
+                                            <i class="fa-solid fa-paper-plane text-xs"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SHOE CATEGORIES -->
+        <section id="categories" class="py-20 border-t border-slate-900 bg-[#0E0F12]">
+            <div class="container-custom">
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Footwear Spectrum</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Explore Shoe Categories</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Discover tailored design categories suited for daily wear, athletic routines, formal gatherings, and relaxed comfort in Karachi.
+                    </p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Category 1: Sneakers -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 overflow-hidden group hover:border-[#E0A96D]/60 transition-all reveal img-zoom-container">
+                        <div class="h-60 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80" alt="Urban Lifestyle Sneakers" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1A1C23] via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-[10px] uppercase tracking-widest text-[#E0A96D] block font-bold mb-1">Urban & Active</span>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Sneakers</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed mb-4">Sleek low-tops, retro runners, and cushioned street sneakers engineered for all-day urban comfort.</p>
+                            <a href="#shoes" onclick="filterCategory('Sneakers')" class="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-[#E0A96D] hover:underline font-bold">
+                                View Sneakers <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Formal Shoes -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 overflow-hidden group hover:border-[#E0A96D]/60 transition-all reveal img-zoom-container">
+                        <div class="h-60 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80" alt="Classic Leather Formal Dress Shoes" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1A1C23] via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-[10px] uppercase tracking-widest text-[#E0A96D] block font-bold mb-1">Dignified Elegance</span>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Formal Shoes</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed mb-4">Polished Oxfords, Derbies, and refined slip-on leather footwear for business and ceremonial wear.</p>
+                            <a href="#shoes" onclick="filterCategory('Formal')" class="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-[#E0A96D] hover:underline font-bold">
+                                View Formal <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Casual Footwear -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 overflow-hidden group hover:border-[#E0A96D]/60 transition-all reveal img-zoom-container">
+                        <div class="h-60 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80" alt="Casual Daily Shoes" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1A1C23] via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-[10px] uppercase tracking-widest text-[#E0A96D] block font-bold mb-1">Versatile Daily</span>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Casual Shoes</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed mb-4">Loafers, boat shoes, and canvas slip-ons designed for effortless weekend relaxed styles.</p>
+                            <a href="#shoes" onclick="filterCategory('Casual')" class="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-[#E0A96D] hover:underline font-bold">
+                                View Casual <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Sandals -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 overflow-hidden group hover:border-[#E0A96D]/60 transition-all reveal img-zoom-container">
+                        <div class="h-60 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=800&q=80" alt="Leather Strap Sandals" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1A1C23] via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-[10px] uppercase tracking-widest text-[#E0A96D] block font-bold mb-1">Open & Breathable</span>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Sandals</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed mb-4">Comfortable strapped leather and adjustable sandals perfect for warm climate daily routines.</p>
+                            <a href="#shoes" onclick="filterCategory('Sandals')" class="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-[#E0A96D] hover:underline font-bold">
+                                View Sandals <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: Slippers -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 overflow-hidden group hover:border-[#E0A96D]/60 transition-all reveal img-zoom-container">
+                        <div class="h-60 overflow-hidden relative">
+                            <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80" alt="Comfortable Casual Slippers and Chappals" class="w-full h-full object-cover img-zoom">
+                            <div class="absolute inset-0 bg-gradient-to-t from-[#1A1C23] via-transparent to-transparent"></div>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-[10px] uppercase tracking-widest text-[#E0A96D] block font-bold mb-1">Relaxed Comfort</span>
+                            <h3 class="font-heading text-xl font-bold text-white mb-2">Slippers & Chappals</h3>
+                            <p class="text-slate-400 text-xs leading-relaxed mb-4">Lightweight slides, cushioned flip-flops, and home slippers built for maximum indoor ease.</p>
+                            <a href="#shoes" onclick="filterCategory('Slippers')" class="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-[#E0A96D] hover:underline font-bold">
+                                View Slippers <i class="fa-solid fa-chevron-right text-[10px]"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Category 6: Sports Footwear -->
+                  
+                </div>
+            </div>
+        </section>
+
+        <!-- SHOE COLLECTIONS & JS FILTER GRID -->
+        <section id="shoes" class="py-20 border-t border-slate-900 bg-[#121316]">
+            <div class="container-custom">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-12 reveal">
+                    <div>
+                        <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Conceptual Display</span>
+                        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white">Footwear Visual Showroom</h2>
+                    </div>
+                    <p class="text-slate-400 text-xs sm:text-sm max-w-md mt-4 md:mt-0 leading-relaxed">
+                        Cards below feature sample footwear styles for discovery. Contact S.R. SHOES in Nazimabad to inquire about current stock and sizes.
+                    </p>
+                </div>
+
+                <!-- Category Filter Buttons -->
+                <div class="flex flex-wrap gap-2 sm:gap-3 mb-12 reveal">
+                    <button class="filter-btn active px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider border border-[#E0A96D]/30 text-slate-300 transition-all font-semibold" onclick="filterCategory('All', this)">All Styles</button>
+                    <button class="filter-btn px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider border border-[#E0A96D]/30 text-slate-300 transition-all font-semibold" onclick="filterCategory('Sneakers', this)">Sneakers</button>
+                    <button class="filter-btn px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider border border-[#E0A96D]/30 text-slate-300 transition-all font-semibold" onclick="filterCategory('Formal', this)">Formal</button>
+                    <button class="filter-btn px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider border border-[#E0A96D]/30 text-slate-300 transition-all font-semibold" onclick="filterCategory('Casual', this)">Casual</button>
+                    <button class="filter-btn px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider border border-[#E0A96D]/30 text-slate-300 transition-all font-semibold" onclick="filterCategory('Sandals', this)">Sandals</button>
+                    <button class="filter-btn px-5 py-2.5 rounded-xl text-xs uppercase tracking-wider border border-[#E0A96D]/30 text-slate-300 transition-all font-semibold" onclick="filterCategory('Slippers', this)">Slippers</button>
+                </div>
+
+                <!-- Product Grid Output Container -->
+                <div id="product-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Dynamic Footwear Cards via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- INTERACTIVE SHOE INQUIRY BUILDER -->
+        <section id="inquiry-builder" class="py-20 border-t border-slate-900 bg-[#0E0F12]">
+            <div class="container-custom">
+                <div class="grid lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-5 reveal">
+                        <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Direct Inquiry Tool</span>
+                        <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-6">Shoe Inquiry Builder</h2>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                            Searching for a specific foot size, colorway, or shoe category in Karachi? Configure your preferred specs below to launch a instant WhatsApp message to S.R. SHOES.
+                        </p>
+                        <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="w-8 h-8 rounded-lg bg-[#E0A96D]/15 flex items-center justify-center text-[#E0A96D] shrink-0 font-bold text-xs">1</div>
+                                <p class="text-xs text-slate-300 leading-normal"><strong class="text-white">Choose Parameters:</strong> Pick your footwear category, size, and quantity.</p>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-8 h-8 rounded-lg bg-[#E0A96D]/15 flex items-center justify-center text-[#E0A96D] shrink-0 font-bold text-xs">2</div>
+                                <p class="text-xs text-slate-300 leading-normal"><strong class="text-white">Instant WhatsApp Link:</strong> Generates formatted text query directly to 03333358998.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Builder Form -->
+                    <div class="lg:col-span-7 reveal">
+                        <div class="p-8 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/30 shadow-2xl relative">
+                            <h3 class="font-heading text-xl font-bold text-white mb-6 border-b border-slate-800 pb-4 flex items-center justify-between">
+                                <span>Inquiry Configuration</span>
+                                <i class="fa-solid fa-sliders text-[#E0A96D] text-sm"></i>
+                            </h3>
+                            
+                            <form id="builder-form" onsubmit="handleBuilderSubmit(event)" class="space-y-6">
+                                <div class="grid sm:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Your Name *</label>
+                                        <input type="text" id="builder-name" required placeholder="Enter full name" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Shoe Category</label>
+                                        <select id="builder-category" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                            <option value="Sneakers">Sneakers</option>
+                                            <option value="Formal Shoes">Formal Shoes</option>
+                                            <option value="Casual Shoes">Casual Shoes</option>
+                                            <option value="Sandals">Sandals</option>
+                                            <option value="Slippers / Chappals">Slippers & Chappals</option>
+                                            <option value="Sports Footwear">Sports Footwear</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="grid sm:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Preferred Shoe Size (EU/UK)</label>
+                                        <select id="builder-size" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                            <option value="EU 39 / UK 6">EU 39 / UK 6</option>
+                                            <option value="EU 40 / UK 7">EU 40 / UK 7</option>
+                                            <option value="EU 41 / UK 8">EU 41 / UK 8</option>
+                                            <option value="EU 42 / UK 9" selected>EU 42 / UK 9</option>
+                                            <option value="EU 43 / UK 10">EU 43 / UK 10</option>
+                                            <option value="EU 44 / UK 11">EU 44 / UK 11</option>
+                                            <option value="EU 45 / UK 12">EU 45 / UK 12</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Quantity</label>
+                                        <input type="number" id="builder-quantity" min="1" max="10" value="1" required class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Color / Style Preferences</label>
+                                    <textarea id="builder-details" rows="3" placeholder="Mention preferred colors (Black, Brown, White, Tan) or specific requirements..." class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors"></textarea>
+                                </div>
+
+                                <button type="submit" class="w-full py-4 rounded-xl text-xs uppercase tracking-widest font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-black hover:brightness-110 transition-all flex items-center justify-center gap-3 shadow-lg shadow-[#E0A96D]/15">
+                                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                                    <span>Send Inquiry to S.R. SHOES</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SHOE STYLE GUIDE -->
+        <section id="style-guide" class="py-20 border-t border-slate-900 bg-[#121316]">
+            <div class="container-custom">
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Style Knowledge</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Footwear Style Guide</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Understand key footwear categories to seamlessly pair shoes with your wardrobe and occasions.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/15 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <div class="w-12 h-12 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] mb-4 text-xl">
+                            <i class="fa-solid fa-[#121316] text-xs"></i>
+                            <i class="fa-solid fa-shoe-prints"></i>
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Sneakers</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Ideal for modern streetwear, casual denim, and active weekend outings.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/15 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <div class="w-12 h-12 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] mb-4 text-xl">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Formal</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Essential for business suits, wedding attire, and dignified evening gatherings.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/15 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <div class="w-12 h-12 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] mb-4 text-xl">
+                            <i class="fa-solid fa-socks"></i>
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Casual</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Versatile loafers and slip-ons suited for semi-formal shirts and relaxed trousers.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/15 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <div class="w-12 h-12 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] mb-4 text-xl">
+                            <i class="fa-solid fa-sun"></i>
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Sandals</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Open-toe footwear tailored for warm weather, traditional wear, and daily errands.</p>
+                    </div>
+
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/15 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <div class="w-12 h-12 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] mb-4 text-xl">
+                            <i class="fa-solid fa-person-running"></i>
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Sports</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Performance trainers with high grip and shock absorption for workouts and sports.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SHOE CARE GUIDE -->
+        <section id="care-guide" class="py-20 border-t border-slate-900 bg-[#0E0F12]">
+            <div class="container-custom">
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Maintenance Advice</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Footwear Care & Longevity</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Extend the lifespan and pristine appearance of your shoes with these practical maintenance guidelines.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Care 1 -->
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 reveal">
+                        <div class="h-44 rounded-xl overflow-hidden mb-6 img-zoom-container">
+                            <img src="https://images.unsplash.com/photo-1582588678413-dbf45f4823e9?auto=format&fit=crop&w=600&q=80" alt="Polishing leather shoe" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">1. Proper Cleaning</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Use soft bristle brushes for suede/canvas and specialized cream polish for full-grain leather.</p>
+                    </div>
+
+                    <!-- Care 2 -->
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 reveal">
+                        <div class="h-44 rounded-xl overflow-hidden mb-6 img-zoom-container">
+                            <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600&q=80" alt="White sneaker maintenance close up" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">2. Air Drying</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Always air-dry damp shoes naturally at room temperature. Avoid direct sunlight or heavy artificial heat.</p>
+                    </div>
+
+                    <!-- Care 3 -->
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 reveal">
+                        <div class="h-44 rounded-xl overflow-hidden mb-6 img-zoom-container">
+                            <img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80" alt="Shoe storage closet detail" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">3. Storage & Trees</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Store shoes in breathable dust bags or shoe trees to maintain original crease-free structure.</p>
+                    </div>
+
+                    <!-- Care 4 -->
+                    <div class="p-6 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 reveal">
+                        <div class="h-44 rounded-xl overflow-hidden mb-6 img-zoom-container">
+                            <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=600&q=80" alt="High detail shoe outsole" class="w-full h-full object-cover img-zoom">
+                        </div>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">4. Sole Protection</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Keep outsoles clean of debris to preserve traction and prevent premature tread wear.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- WHY S.R. SHOES -->
+        <section class="py-20 border-t border-slate-900 bg-[#121316]">
+            <div class="container-custom">
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Our Commitment</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Why Connect With S.R. SHOES</h2>
+                    <p class="text-slate-400 text-sm leading-relaxed">
+                        Factual customer-focused advantages for local buyers seeking reliable footwear in Karachi.
+                    </p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="p-8 rounded-2xl bg-[#1A1C23] border border-slate-800 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <i class="fa-solid fa-shoe-prints text-2xl text-[#E0A96D] mb-4 block"></i>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Footwear-Focused Selection</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Dedicated exclusively to shoe styles, offering dedicated insight for your footwear decisions.</p>
+                    </div>
+
+                    <div class="p-8 rounded-2xl bg-[#1A1C23] border border-slate-800 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <i class="fa-solid fa-comments text-2xl text-[#E0A96D] mb-4 block"></i>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Easy Product Inquiry</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Interactive online inquiry builder allows you to specify exact categories and size preferences.</p>
+                    </div>
+
+                    <div class="p-8 rounded-2xl bg-[#1A1C23] border border-slate-800 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <i class="fa-brands fa-whatsapp text-2xl text-[#E0A96D] mb-4 block"></i>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Direct WhatsApp Contact</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Direct communication on 03333358998 for personal sizing assistance and stock queries.</p>
+                    </div>
+
+                    <div class="p-8 rounded-2xl bg-[#1A1C23] border border-slate-800 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <i class="fa-solid fa-location-dot text-2xl text-[#E0A96D] mb-4 block"></i>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Nazimabad Showroom</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Conveniently situated at Block 5, Nazimabad, Karachi for easy access.</p>
+                    </div>
+
+                    <div class="p-8 rounded-2xl bg-[#1A1C23] border border-slate-800 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <i class="fa-solid fa-compass text-2xl text-[#E0A96D] mb-4 block"></i>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Simple Shoe Discovery</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Clean category filtering and clear guides to help you find your ideal pair.</p>
+                    </div>
+
+                    <div class="p-8 rounded-2xl bg-[#1A1C23] border border-slate-800 hover:border-[#E0A96D]/40 transition-all reveal">
+                        <i class="fa-solid fa-shield-halved text-2xl text-[#E0A96D] mb-4 block"></i>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">Transparent Assistance</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed">Direct information on shoe styles without convoluted jargon.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="py-20 border-t border-slate-900 bg-[#0E0F12]">
+            <div class="container-custom max-w-4xl text-center reveal">
+                <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">About Our Store</span>
+                <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-6">About S.R. SHOES</h2>
+                <p class="text-slate-300 text-base leading-relaxed mb-8">
+                    S.R. SHOES is a local footwear business based in Block 5, Nazimabad, Karachi, Pakistan. We focus on assisting customers in discovering quality footwear options—from casual sneakers and formal shoes to sandals, slippers, and sport trainers—through quick direct phone and WhatsApp communication.
+                </p>
+                <div class="inline-flex items-center gap-3 p-4 rounded-xl bg-[#1A1C23] border border-[#E0A96D]/30">
+                    <i class="fa-solid fa-store text-[#E0A96D]"></i>
+                    <span class="text-xs uppercase tracking-wider text-slate-200 font-semibold">Located at Block 5, Nazimabad, Karachi, Pakistan</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCATION SECTION -->
+        <section class="py-20 border-t border-slate-900 bg-[#121316]">
+            <div class="container-custom">
+                <div class="max-w-3xl mx-auto rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/30 p-8 sm:p-12 text-center reveal shadow-2xl">
+                    <div class="w-16 h-16 rounded-2xl bg-[#E0A96D]/10 border border-[#E0A96D]/30 flex items-center justify-center text-[#E0A96D] text-2xl mx-auto mb-6">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Visit / Connect</span>
+                    <h2 class="font-heading text-3xl font-bold text-white mb-4">Our Location</h2>
+                    <p class="text-slate-200 text-lg font-semibold mb-6">
+                        Block 5, Nazimabad, Karachi, Pakistan
+                    </p>
+                    <p class="text-slate-400 text-xs mb-8 max-w-md mx-auto">
+                        Connect with us before visiting to inquire about current size availability or specific shoe categories.
+                    </p>
+                    <div class="flex flex-wrap items-center justify-center gap-4">
+                        <a href="tel:+923333358998" class="px-6 py-3.5 rounded-xl text-xs uppercase tracking-widest font-bold border border-[#E0A96D]/40 text-slate-200 hover:border-[#E0A96D] hover:bg-[#121316] transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-xs"></i> Call 03333358998
+                        </a>
+                        <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl text-xs uppercase tracking-widest font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-black hover:brightness-110 transition-all flex items-center gap-2 shadow-lg shadow-[#E0A96D]/15">
+                            <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Us
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ ACCORDION SECTION -->
+        <section id="faq" class="py-20 border-t border-slate-900 bg-[#0E0F12]">
+            <div class="container-custom max-w-3xl">
+                <div class="text-center mb-16 reveal">
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Information Center</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Frequently Asked Questions</h2>
+                    <p class="text-slate-400 text-sm">Find quick answers regarding shoe inquiries, sizing, and location details.</p>
+                </div>
+
+                <div class="space-y-4 reveal">
+                    <!-- FAQ Item 1 -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-slate-800 overflow-hidden">
+                        <button onclick="toggleFaq(this)" class="w-full p-6 text-left flex items-center justify-between font-heading font-bold text-slate-200 hover:text-[#E0A96D] transition-colors focus:outline-none">
+                            <span>How can I inquire about shoe availability or sizes?</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-[#E0A96D] transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden px-6 pb-6 text-slate-400 text-xs leading-relaxed border-t border-slate-800/60 pt-4">
+                            You can directly call S.R. SHOES at <a href="tel:+923333358998" class="text-[#E0A96D] font-semibold underline">03333358998</a> or send a WhatsApp message. You can also use our interactive Shoe Inquiry Builder on this website.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-slate-800 overflow-hidden">
+                        <button onclick="toggleFaq(this)" class="w-full p-6 text-left flex items-center justify-between font-heading font-bold text-slate-200 hover:text-[#E0A96D] transition-colors focus:outline-none">
+                            <span>Which shoe categories do you feature?</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-[#E0A96D] transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden px-6 pb-6 text-slate-400 text-xs leading-relaxed border-t border-slate-800/60 pt-4">
+                            We assist with Sneakers, Formal Leather Shoes, Casual Slip-ons, Leather Sandals, Slippers/Chappals, and Sports Trainers.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-slate-800 overflow-hidden">
+                        <button onclick="toggleFaq(this)" class="w-full p-6 text-left flex items-center justify-between font-heading font-bold text-slate-200 hover:text-[#E0A96D] transition-colors focus:outline-none">
+                            <span>What information should I include in my inquiry?</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-[#E0A96D] transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden px-6 pb-6 text-slate-400 text-xs leading-relaxed border-t border-slate-800/60 pt-4">
+                            Please specify your full name, preferred shoe category, preferred size (e.g., EU 42/UK 9), and any preferred color or style requirements.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-slate-800 overflow-hidden">
+                        <button onclick="toggleFaq(this)" class="w-full p-6 text-left flex items-center justify-between font-heading font-bold text-slate-200 hover:text-[#E0A96D] transition-colors focus:outline-none">
+                            <span>Where is S.R. SHOES located?</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-[#E0A96D] transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden px-6 pb-6 text-slate-400 text-xs leading-relaxed border-t border-slate-800/60 pt-4">
+                            We are located at <strong>Block 5, Nazimabad, Karachi, Pakistan</strong>.
+                        </div>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="rounded-2xl bg-[#1A1C23] border border-slate-800 overflow-hidden">
+                        <button onclick="toggleFaq(this)" class="w-full p-6 text-left flex items-center justify-between font-heading font-bold text-slate-200 hover:text-[#E0A96D] transition-colors focus:outline-none">
+                            <span>Can I call directly for phone assistance?</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-[#E0A96D] transition-transform duration-300"></i>
+                        </button>
+                        <div class="faq-answer hidden px-6 pb-6 text-slate-400 text-xs leading-relaxed border-t border-slate-800/60 pt-4">
+                            Yes, feel free to call us directly at <a href="tel:+923333358998" class="text-[#E0A96D] font-bold underline">03333358998</a> during standard shop operating hours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION (STRICT RULE: ABSOLUTE ZERO IMAGES) -->
+        <section id="contact" class="py-20 border-t border-slate-900 bg-[#121316]">
+            <div class="container-custom">
+                <div class="text-center max-w-2xl mx-auto mb-16 reveal">
+                    <span class="text-xs uppercase tracking-[0.3em] text-[#E0A96D] block font-bold mb-2">Get In Touch</span>
+                    <h2 class="font-heading text-3xl sm:text-4xl font-extrabold text-white mb-4">Contact S.R. SHOES</h2>
+                    <p class="text-slate-400 text-sm">Send us a message or connect directly via phone or WhatsApp.</p>
+                </div>
+
+                <div class="grid lg:grid-cols-12 gap-12">
+                    <!-- Business Info Card (Strictly Icons & Typography Only) -->
+                    <div class="lg:col-span-5 reveal">
+                        <div class="p-8 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/30 h-full flex flex-col justify-between shadow-xl">
+                            <div>
+                                <h3 class="font-heading text-2xl font-extrabold text-white mb-2">S.R. SHOES</h3>
+                                <p class="text-slate-400 text-xs mb-8">Footwear Showroom & Customer Inquiries</p>
+
+                                <div class="space-y-6 text-sm">
+                                    <div class="flex items-start gap-4">
+                                        <div class="w-10 h-10 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] shrink-0 border border-[#E0A96D]/20">
+                                            <i class="fa-solid fa-phone text-xs"></i>
+                                        </div>
+                                        <div>
+                                            <span class="block text-slate-500 text-[10px] uppercase tracking-wider font-semibold">Phone</span>
+                                            <a href="tel:+923333358998" class="text-slate-200 hover:text-[#E0A96D] font-bold transition-colors">03333358998</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start gap-4">
+                                        <div class="w-10 h-10 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] shrink-0 border border-[#E0A96D]/20">
+                                            <i class="fa-brands fa-whatsapp text-sm"></i>
+                                        </div>
+                                        <div>
+                                            <span class="block text-slate-500 text-[10px] uppercase tracking-wider font-semibold">WhatsApp</span>
+                                            <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-[#E0A96D] font-bold transition-colors">03333358998</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-start gap-4">
+                                        <div class="w-10 h-10 rounded-xl bg-[#E0A96D]/10 flex items-center justify-center text-[#E0A96D] shrink-0 border border-[#E0A96D]/20">
+                                            <i class="fa-solid fa-location-dot text-xs"></i>
+                                        </div>
+                                        <div>
+                                            <span class="block text-slate-500 text-[10px] uppercase tracking-wider font-semibold">Location</span>
+                                            <span class="text-slate-200 font-semibold block">Block 5, Nazimabad, Karachi, Pakistan</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mt-10 pt-6 border-t border-slate-800 flex flex-col gap-3">
+                                <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="w-full py-3.5 rounded-xl text-xs uppercase tracking-widest font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-black text-center flex items-center justify-center gap-2 shadow-md">
+                                    <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Inquiry
+                                </a>
+                                <a href="tel:+923333358998" class="w-full py-3.5 rounded-xl text-xs uppercase tracking-widest font-bold border border-[#E0A96D]/30 text-slate-200 text-center flex items-center justify-center gap-2 hover:bg-[#121316] transition-all">
+                                    <i class="fa-solid fa-phone text-xs"></i> Call 03333358998
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Column (Zero Images) -->
+                    <div class="lg:col-span-7 reveal">
+                        <div class="p-8 rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/30 shadow-xl">
+                            <h3 class="font-heading text-xl font-bold text-white mb-6">Send an Online Inquiry</h3>
+                            
+                            <form id="contact-form" onsubmit="handleContactSubmit(event)" class="space-y-6">
+                                <div class="grid sm:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Your Name *</label>
+                                        <input type="text" id="contact-name" required placeholder="Full Name" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Phone Number *</label>
+                                        <input type="tel" id="contact-phone" required placeholder="03XXXXXXXXX" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                    </div>
+                                </div>
+
+                                <div class="grid sm:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Preferred Category</label>
+                                        <select id="contact-category" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                            <option value="Sneakers">Sneakers</option>
+                                            <option value="Formal Shoes">Formal Shoes</option>
+                                            <option value="Casual Shoes">Casual Shoes</option>
+                                            <option value="Sandals">Sandals</option>
+                                            <option value="Slippers / Chappals">Slippers / Chappals</option>
+                                            <option value="Sports Footwear">Sports Footwear</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Shoe Size (Optional)</label>
+                                        <input type="text" id="contact-size" placeholder="e.g. EU 42" class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs uppercase tracking-wider text-slate-400 mb-2 font-semibold">Message / Requirements *</label>
+                                    <textarea id="contact-message" rows="4" required placeholder="Describe the style, color, or sizing queries you have..." class="w-full px-4 py-3 rounded-xl bg-[#121316] border border-slate-800 text-slate-100 text-sm focus:outline-none focus:border-[#E0A96D] transition-colors"></textarea>
+                                </div>
+
+                                <div id="form-feedback" class="hidden p-4 rounded-xl text-xs font-semibold"></div>
+
+                                <button type="submit" class="w-full py-4 rounded-xl text-xs uppercase tracking-widest font-bold bg-gradient-to-r from-[#E0A96D] to-[#D48C46] text-black hover:brightness-110 transition-all flex items-center justify-center gap-3 shadow-lg shadow-[#E0A96D]/15">
+                                    <i class="fa-solid fa-paper-plane text-xs"></i>
+                                    <span>Proceed to WhatsApp Dispatch</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="bg-[#0A0B0D] border-t border-slate-900 pt-16 pb-12">
+            <div class="container-custom">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                    <!-- Brand Info -->
+                    <div>
+                        <a href="#home" class="flex items-center gap-3 mb-6">
+                            <div class="w-10 h-10 rounded-xl border border-[#E0A96D]/40 flex items-center justify-center bg-[#1A1C23]">
+                                <i class="fa-solid fa-shoe-prints text-[#E0A96D] text-sm transform -rotate-45"></i>
+                            </div>
+                            <div>
+                                <span class="font-heading font-extrabold text-2xl tracking-wider copper-gradient-text block leading-none">S.R. SHOES</span>
+                                <span class="text-[9px] tracking-[0.35em] text-slate-400 block uppercase mt-1">FOOTWEAR SHOWROOM</span>
+                            </div>
+                        </a>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">
+                            S.R. SHOES is a dedicated footwear showroom located in Block 5, Nazimabad, Karachi. Explore curated shoe categories and connect directly for inquiries.
+                        </p>
+                        <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-[#E0A96D] hover:underline font-bold">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp 03333358998
+                        </a>
+                    </div>
+
+                    <!-- Quick Navigation -->
+                    <div>
+                        <h4 class="font-heading text-sm font-bold uppercase tracking-widest text-white mb-6 border-b border-slate-800 pb-2">Quick Links</h4>
+                        <ul class="space-y-3 text-xs text-slate-400">
+                            <li><a href="#home" class="hover:text-[#E0A96D] transition-colors">Home</a></li>
+                            <li><a href="#categories" class="hover:text-[#E0A96D] transition-colors">Shoe Categories</a></li>
+                            <li><a href="#shoes" class="hover:text-[#E0A96D] transition-colors">Footwear Showcase</a></li>
+                            <li><a href="#style-guide" class="hover:text-[#E0A96D] transition-colors">Style Guide</a></li>
+                            <li><a href="#care-guide" class="hover:text-[#E0A96D] transition-colors">Shoe Care</a></li>
+                            <li><a href="#faq" class="hover:text-[#E0A96D] transition-colors">FAQ</a></li>
+                            <li><a href="#contact" class="hover:text-[#E0A96D] transition-colors">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Categories List -->
+                    <div>
+                        <h4 class="font-heading text-sm font-bold uppercase tracking-widest text-white mb-6 border-b border-slate-800 pb-2">Categories</h4>
+                        <ul class="space-y-3 text-xs text-slate-400">
+                            <li><a href="#shoes" onclick="filterCategory('Sneakers')" class="hover:text-[#E0A96D] transition-colors">Sneakers</a></li>
+                            <li><a href="#shoes" onclick="filterCategory('Formal')" class="hover:text-[#E0A96D] transition-colors">Formal Shoes</a></li>
+                            <li><a href="#shoes" onclick="filterCategory('Casual')" class="hover:text-[#E0A96D] transition-colors">Casual Footwear</a></li>
+                            <li><a href="#shoes" onclick="filterCategory('Sandals')" class="hover:text-[#E0A96D] transition-colors">Leather Sandals</a></li>
+                            <li><a href="#shoes" onclick="filterCategory('Slippers')" class="hover:text-[#E0A96D] transition-colors">Slippers & Chappals</a></li>
+                            <li><a href="#shoes" onclick="filterCategory('Sports')" class="hover:text-[#E0A96D] transition-colors">Sports Trainers</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Showroom Details -->
+                    <div>
+                        <h4 class="font-heading text-sm font-bold uppercase tracking-widest text-white mb-6 border-b border-slate-800 pb-2">Contact Showroom</h4>
+                        <ul class="space-y-4 text-xs text-slate-400">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-phone text-[#E0A96D] mt-0.5"></i>
+                                <span>Phone: <a href="tel:+923333358998" class="text-slate-200 hover:text-[#E0A96D]">03333358998</a></span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-brands fa-whatsapp text-[#E0A96D] mt-0.5"></i>
+                                <span>WhatsApp: <a href="https://wa.me/923333358998" target="_blank" rel="noopener noreferrer" class="text-slate-200 hover:text-[#E0A96D]">03333358998</a></span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-location-dot text-[#E0A96D] mt-0.5"></i>
+                                <span class="leading-relaxed">Location: Block 5, Nazimabad, Karachi, Pakistan</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                    <p>© <span id="current-year"></span> S.R. SHOES. All rights reserved.</p>
+                    <p class="text-[10px] uppercase tracking-wider text-slate-600">Premium Footwear & Inquiries • Nazimabad, Karachi</p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top" class="fixed bottom-6 right-6 w-12 h-12 rounded-xl bg-[#1A1C23] border border-[#E0A96D]/40 text-[#E0A96D] flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 z-40 hover:bg-[#E0A96D] hover:text-black shadow-2xl">
+        <i class="fa-solid fa-arrow-up text-sm"></i>
+    </button>
+
+    <!-- VANILLA JAVASCRIPT LOGIC -->
+    <script>
+        // Conceptual Footwear Data Array
+        const shoeProducts = [
+            {
+                id: 1,
+                title: "   Urban Street Sneaker",
+                category: "Sneakers",
+                tag: "Conceptual Product",
+                desc: "Low-profile urban sneaker with cushioned outsole and ergonomic mesh panelling.",
+                image: "https://images.unsplash.com/photo-1552346154-21d32810aba3?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 2,
+                title: "   Classic Oxford Leather",
+                category: "Formal",
+                tag: "Conceptual Product",
+                desc: "High-shine formal leather shoe with sleek lacing and contoured heel support.",
+                image: "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 3,
+                title: "   Everyday Penny Loafer",
+                category: "Casual",
+                tag: "Conceptual Product",
+                desc: "Versatile slip-on casual loafer with hand-stitched detailing for effortless wear.",
+                image: "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 4,
+                title: "   Strapped Leather Sandal",
+                category: "Sandals",
+                tag: "Conceptual Product",
+                desc: "Breathable open-air leather sandal with adjustable buckle straps and grip sole.",
+                image: "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&w=800&q=80"
+            },
+            {
+                id: 5,
+                title: "   Comfort Daily Slide",
+                category: "Slippers",
+                tag: "Conceptual Product",
+                desc: "Ultra-soft cushioned casual slide slipper built for light indoor and outdoor use.",
+                image: "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=800&q=80"
+            }
+        ];
+
+        // Render Footwear Grid
+        function renderProducts(category = 'All') {
+            const grid = document.getElementById('product-grid');
+            if (!grid) return;
+
+            const filtered = category === 'All' 
+                ? shoeProducts 
+                : shoeProducts.filter(item => item.category === category);
+
+            grid.innerHTML = filtered.map(product => `
+                <div class="rounded-2xl bg-[#1A1C23] border border-[#E0A96D]/20 overflow-hidden group hover:border-[#E0A96D]/60 transition-all img-zoom-container shadow-xl">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="${product.image}" alt="${product.title}" class="w-full h-full object-cover img-zoom" loading="lazy">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#1A1C23] via-transparent to-transparent"></div>
+                        <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#121316]/85 border border-[#E0A96D]/30 text-[10px] uppercase tracking-wider text-[#E0A96D] font-bold">
+                            ${product.tag}
+                        </span>
+                    </div>
+                    <div class="p-6">
+                        <span class="text-[10px] uppercase tracking-widest text-slate-500 block mb-1 font-semibold">${product.category} Category</span>
+                        <h3 class="font-heading text-lg font-bold text-white mb-2">${product.title}</h3>
+                        <p class="text-slate-400 text-xs leading-relaxed mb-6">${product.desc}</p>
+                        
+                        <div class="pt-4 border-t border-slate-800/80 flex items-center justify-between">
+                            <span class="text-[11px] text-slate-400 italic">Inquire availability</span>
+                            <a href="#inquiry-builder" onclick="setBuilderCategory('${product.category}')" class="px-4 py-2 rounded-xl bg-[#E0A96D]/15 hover:bg-[#E0A96D] text-[#E0A96D] hover:text-black transition-all text-xs font-bold uppercase tracking-wider flex items-center gap-1.5">
+                                <span>Inquire</span>
+                                <i class="fa-brands fa-whatsapp text-xs"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Filter Category Handler
+        function filterCategory(category, btnElement) {
+            renderProducts(category);
+
+            if (btnElement) {
+                document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                btnElement.classList.add('active');
+            }
+        }
+
+        // Pre-select Category in Builder
+        function setBuilderCategory(cat) {
+            const select = document.getElementById('builder-category');
+            if (select) {
+                select.value = cat;
+            }
+        }
+
+        // Shoe Inquiry Builder Form Submit Logic
+        function handleBuilderSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('builder-name').value;
+            const category = document.getElementById('builder-category').value;
+            const size = document.getElementById('builder-size').value;
+            const quantity = document.getElementById('builder-quantity').value;
+            const details = document.getElementById('builder-details').value;
+
+            const text = `S.R. SHOES — Footwear Inquiry\nName: ${name}\nCategory: ${category}\nSize: ${size}\nQuantity: ${quantity}\nDetails: ${details}`;
+            const encodedText = encodeURIComponent(text);
+            const whatsappUrl = `https://wa.me/923333358998?text=${encodedText}`;
+
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Contact Form Submit Logic
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('contact-name').value;
+            const phone = document.getElementById('contact-phone').value;
+            const category = document.getElementById('contact-category').value;
+            const size = document.getElementById('contact-size').value;
+            const message = document.getElementById('contact-message').value;
+
+            const feedback = document.getElementById('form-feedback');
+            feedback.className = "p-4 rounded-xl text-xs font-bold bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 block mb-4";
+            feedback.innerText = "Inquiry ready! Redirecting to WhatsApp dispatch...";
+
+            setTimeout(() => {
+                const text = `S.R. SHOES — Customer Contact Inquiry\nName: ${name}\nPhone: ${phone}\nCategory: ${category}\nSize: ${size}\nMessage: ${message}`;
+                const encodedText = encodeURIComponent(text);
+                window.open(`https://wa.me/923333358998?text=${encodedText}`, '_blank');
+            }, 800);
+        }
+
+        // Toggle FAQ Accordion
+        function toggleFaq(btn) {
+            const answer = btn.nextElementSibling;
+            const icon = btn.querySelector('.fa-chevron-down');
+
+            if (answer.classList.contains('hidden')) {
+                document.querySelectorAll('.faq-answer').forEach(el => el.classList.add('hidden'));
+                document.querySelectorAll('.fa-chevron-down').forEach(el => el.classList.remove('rotate-180'));
+
+                answer.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                answer.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Initializations on DOM Load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set dynamic current year in footer
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+
+            // Render initial product grid
+            renderProducts('All');
+
+            // Mobile Menu Toggle Logic
+            const menuToggle = document.getElementById('menu-toggle');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+            if (menuToggle && mobileMenu) {
+                menuToggle.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                });
+
+                mobileNavLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                    });
+                });
+            }
+
+            // Scroll FX and Navbar Active State
+            const navbar = document.getElementById('navbar');
+            const backToTopBtn = document.getElementById('back-to-top');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('shadow-xl', 'border-[#E0A96D]/30');
+                } else {
+                    navbar.classList.remove('shadow-xl');
+                }
+
+                if (window.scrollY > 400) {
+                    backToTopBtn.classList.remove('opacity-0', 'pointer-events-none');
+                } else {
+                    backToTopBtn.classList.add('opacity-0', 'pointer-events-none');
+                }
+
+                // Scroll Reveal Handler
+                document.querySelectorAll('.reveal').forEach(el => {
+                    const rect = el.getBoundingClientRect();
+                    if (rect.top <= window.innerHeight * 0.88) {
+                        el.classList.add('active');
+                    }
+                });
+            });
+
+            // Trigger scroll event on load
+            window.dispatchEvent(new Event('scroll'));
+        });
+    </script>
+</body>
+</html>
